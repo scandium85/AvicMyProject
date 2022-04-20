@@ -26,7 +26,7 @@ public class AvicTests {
     }
 
     @Test(priority = 1)
-    public void checkAddingFirstProdInBasket() {
+    public void checkAddFirstProdInBasket() {
         List<WebElement> elements;
         elements = driver.findElements(By.xpath("//span[@class='sidebar-item-title']"));
         elements.get(0).click();
